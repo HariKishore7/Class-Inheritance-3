@@ -4,8 +4,9 @@
 
 
 // export class using module.exports
-import Shape from './shape';
-export default class Circle extends Shape{
+// import Shape from './shape';
+const Shape=require('./shape');
+class Circle extends Shape{
     constructor(){
         //this constructor should call super class first
         super();
@@ -16,3 +17,4 @@ export default class Circle extends Shape{
         //comment added
     }
 }
+module.exports=Circle;//for exporting the circles class

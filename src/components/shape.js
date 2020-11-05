@@ -12,7 +12,9 @@ Write code for Shape class in shape.js and Circle in circle.js
 
 Export the class from each file.
 */
-export default class Shape{
+
+//export we use "export default class Shape"
+class Shape{
     constructor(color){
         this.color=color;
     }
@@ -24,3 +26,5 @@ export default class Shape{
     }
     //comment added
 }
+module.exports=Shape;
+//This is another way "module.exports=Shape";
