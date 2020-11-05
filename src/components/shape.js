@@ -15,6 +15,7 @@ Export the class from each file.
 
 //export we use "export default class Shape"
 class Shape{
+    color="blue";
     constructor(color){
         this.color=color;
     }
