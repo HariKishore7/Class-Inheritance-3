@@ -22,4 +22,5 @@ export default class Shape{
     calculateArea(){
         console.log("Unknown areas");
     }
+    //comment added
 }

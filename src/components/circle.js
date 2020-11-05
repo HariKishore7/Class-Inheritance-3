@@ -13,5 +13,6 @@ export default class Circle extends Shape{
     calculateArea(){
         console.log("Area of circle color is: "+this.color);
         return 3.14*5*5;
+        //comment added
     }
 }
